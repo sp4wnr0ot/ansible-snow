@@ -1,0 +1,6 @@
+---
+- name: Create Demo Incident on Snow
+  hosts: localhost
+  gather_facts: false
+  roles:
+    - role: create-incident
