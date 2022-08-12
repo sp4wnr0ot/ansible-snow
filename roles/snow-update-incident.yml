@@ -1,0 +1,6 @@
+---
+- name: Update Incident on Snow - In Progress
+  hosts: localhost
+  gather_facts: False
+  roles:
+    - role: update-incident
