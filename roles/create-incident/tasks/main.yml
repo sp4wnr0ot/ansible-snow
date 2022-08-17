@@ -2,4 +2,4 @@
 - name: Create an Incident Snow
   servicenow.itsm.incident:
     state: new
-    short_description: Demo Snow Incident
+    short_description: "{{ DEMO_SNOW_DESC }}"
